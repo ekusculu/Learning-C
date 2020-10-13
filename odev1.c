@@ -21,4 +21,8 @@ int main()
 				return 0;
 			}
 		}
+		else
+		{
+			printf("Girdiginiz karakter br harf degil, bir harf girin.\n");
+		}
 }
