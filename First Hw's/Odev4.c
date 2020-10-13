@@ -4,19 +4,19 @@ int main()
 
 {
 	int x;
-	printf("Lütfen bir x sayısı giriniz: ");
+	printf("LÃ¼tfen bir x sayÃ½sÃ½ giriniz: ");
 	scanf("%d",&x);
 	int n;
 	int min, max;
 	
-	printf("1. değeri giriniz: ");
+	printf("1. deÃ°eri giriniz: ");
 		scanf("%d",&n);
 		min = n;
 		max = n;
 		
 	for (int i = 1; i <= x- 1; i ++)
 	{
-		printf("%d. değeri giriniz: ",i+1);
+		printf("%d. deÃ°eri giriniz: ",i+1);
 		scanf("%d",&n);
 		
 		
